@@ -1,3 +1,9 @@
+import DanielPicture from "./assets/user-images/image-daniel.jpg";
+import JeanettePicture from "./assets/user-images/image-jeanette.jpg";
+import JonathanPicture from "./assets/user-images/image-jonathan.jpg";
+import KiraPicture from "./assets/user-images/image-kira.jpg";
+import PatrickPicture from "./assets/user-images/image-patrick.jpg";
+
 interface User {
   name: string;
   role: string;
@@ -46,31 +52,31 @@ export const variantStyles: Record<Variant, VariantClasses> = {
 const DANIEL: User = {
   name: "Daniel Clifford",
   role: "Verified Graduate",
-  profile_picture: "/src/assets/user-images/image-daniel.jpg",
+  profile_picture: DanielPicture,
 };
 
 const JONATHAN: User = {
   name: "Jonathan Walters",
   role: "Verified Graduate",
-  profile_picture: "/src/assets/user-images/image-jonathan.jpg",
+  profile_picture: JonathanPicture,
 };
 
 const KIRA: User = {
   name: "Kira Whittle",
   role: "Verified Graduate",
-  profile_picture: "/src/assets/user-images/image-kira.jpg",
+  profile_picture: KiraPicture,
 };
 
 const JEANETTE: User = {
   name: "Jeanette Harmon",
   role: "Verified Graduate",
-  profile_picture: "/src/assets/user-images/image-jeanette.jpg",
+  profile_picture: JeanettePicture,
 };
 
 const PATRICK: User = {
   name: "Patrick Abrams",
   role: "Verified Graduate",
-  profile_picture: "/src/assets/user-images/image-patrick.jpg",
+  profile_picture: PatrickPicture,
 };
 
 const TESTIMONIAL_DANIEL: Testimonial = {
